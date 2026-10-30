@@ -1,0 +1,11 @@
+
+.r{background: #d11a9a;}
+.n{color: rgb(248, 244, 244); width: 36%; height: 450px; background-color: rgb(0, 0, 0); margin-left: 33.5%; margin-top: 8%; border: 2px solid rgb(252, 247, 247); background: linear-gradient( 135deg, #ff69b4, #d946ef, #9333ea, #ffb6d9 ); background-size: 300% 300%; animation: colorMove 6s ease infinite; }
+.follow{text-align: center; margin-top: 14%;}
+.blue{margin-top: -6%; margin-left: 1%;}
+.M{margin-bottom: -10%;}
+.body { margin: 0; min-height: 100vh; background: linear-gradient( 135deg, #ffb6e6, #d946ef, #9333ea, #f472b6, #7e22ce ); background-size: 400% 400%; animation: pinkPurple 12s ease infinite; } @keyframes pinkPurple { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } } .insta-background { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; display: flex; flex-wrap: wrap; justify-content: space-around; align-content: space-around; } .insta-background span { width: 8%; text-align: center; font-size: clamp(18px, 3vw, 35px); color: rgba(255, 255, 255, 0.28); animation: instaFloat 5s ease-in-out infinite alternate; } .insta-background span:nth-child(even) { animation-delay: -2s; color: rgba(255, 220, 255, 0.4); } @keyframes instaFloat { from { transform: translateY(-12px) rotate(-12deg); } to { transform: translateY(12px) rotate(12deg); } } /* Keep your website content above the background */ body > *:not(.insta-background) { position: relative; z-index: 1; }
+#myVoice{
+    margin-left: 36% !important;
+}
+.A{margin-left: 36%;}
